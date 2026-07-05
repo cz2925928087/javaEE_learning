@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签学习</title>
+</head>
+<body>
+    <!-- 标题标签--h1~h6 -->
+    <h1>一级标题--浏览器</h1>
+    <h2>二级标题--搜索</h2>
+    <h3>三级标题--小说</h3>
+    <h4>四级标题--男频/女频小说</h4>
+    <h5>五级标题--男频玄幻小说</h5>
+    <h6>六级标题--《蛊真人》</h6>
+
+
+    <!-- 段落标签 
+    •   p 标签描述的段落, 前面没有缩进. 
+    •   自动根据浏览器宽度来决定排版.
+    •   html 内容首尾处的换行, 空格均无效.
+    •   在html 中文字之间输入的多个空格只相当于一个空格.
+    •   html 中直接输入换行不会真的换行, 而是相当于一个空格. 
+    -->
+    <p>青山落日，秋月春风。当真是朝如青丝暮成雪，是非成败转头空。</p>
+    <p>雄关漫道真如铁，而今跨步重新越。雨打风吹几重重，不敌一口浊酒液。</p>
+    <p>白雪尽皑皑，天地我独行。独行无牵挂，孤影任去来。</p>
+
+    <!-- 换行标签 -->
+    千古地仙随风逝，昔日三王归青冢。<br/>
+    阳莽憾陨谁无败？卷土重来再称王。<br/>
+    天河一挂淘龙鱼，逆天独行顾八荒。<br/>
+    今日暂且展翼去，明朝登仙笞凤凰！<br/>
+
+    <!--图片标签-->
+    <img src="https://img2.huashi6.com/images/resource/2025/02/09/h127061082p0.jpg" alt="红尘漩涡不由己，何朝散发弄扁舟？乘风破浪三万里，方是我辈魔道人" width="800px" height="800px"/>
+    <img src="../HTML/pd-image.jpg" alt="永生路上多坎坷，这路一人也走得。" width="800px" height="800px"/><br/>
+
+    <!-- 超链接 -->
+    target属性默认是 _self.>
+    target属性使用_blank则用新的标签页打开>
+    <a href="https://www.baidu.com/">百度</a><br/>
+    <a href="https://www.sogou.com/" target="_blank">搜狗</a><br/>
+    <a href="demo1.html" target="_blank">点击跳转Demo1</a><br/>
+    <a href="新建文件夹.zip" target="_self">点击跳转新建文件夹.zip</a><br/>
+    <a href="#" target="_self">空链接</a>
+
+    <!--表格标签 -->
+    <table border="1" cellpadding="10" cellspacing="0" align="center">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+        </tr>
+        <tr>
+            <td>古月方源</td>
+            <td>18</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td>白凝冰</td>
+            <td>20</td>
+            <td>女</td>
+        </tr><br/>
+
+        <!-- 表单标签 -->
+    <form action="demo1.html" method="get">
+         用户名<input type="text" name="userName" userID="" placeholder="请输入姓名"/><br/>
+         密码 <input type="password" name="password" userID="" placeholder="请输入密码"/><br/>
+         性别<input type="radio" name="gender" id="male" value="0"/> <label for="male">男</label>
+         <input type="radio" name="gender" id="female" value="1"/> <label for="female">女</label><br/>
+
+        小说<input type="checkbox" name="chec" id="novel" value="1"/> 龙族
+        <input type="checkbox" name="chec" id="" value="2"/> 蛊真人
+        <input type="checkbox" name="chec" id="" value="3"/> 全职法师<br/>
+        
+        城市<select name="city" id="city">
+            <option value="0">北京</option>
+            <option value="1">上海</option>
+            <option value="2">广州</option>
+            <option value="3">深圳</option>
+        </select><br/>
+
+        个人简介<textarea cols="100" rows="10" placeholder="请输入个人简介"></textarea><br/>
+
+        <!-- 注册提交按钮 -->
+        <!-- <input type="button" value="注册"/><br/> -->
+        <input type="submit" value="注册提交"/>
+    </form>
+</body>
+</html>
