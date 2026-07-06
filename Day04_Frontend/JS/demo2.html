@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS数据类型</title>
+</head>
+<body>
+    <script>
+        // let a = 10;
+        // console.log(typeof a);
+
+        // let b = "Hello";
+        // console.log(typeof b);
+
+        // let c = true;
+        // console.log(typeof c);
+
+        // let d = null;
+        // console.log(typeof d);
+
+        // let e;
+        // console.log(typeof e);
+        
+        // let f = 5/2;
+        // console.log(f);
+        
+        //数组
+        // let arr = new Array();
+        // let arr2 = [];
+        // let arr3 = [1, 2.5, "hello",true,null];
+        // console.log(typeof arr); 
+
+        // //增删改查
+        // //增
+        // arr2[0]=1;
+        // arr2[1]="world"; 
+        // //删
+        // arr3.shift(2,1);//删除"下标2的元素",hello
+        // console.log(arr3);
+        // //改
+        // arr3[1]="world"; //将下标1的元素改为"world"   
+        // //查
+        // console.log(arr3[2]); //输出下标为2的元素
+
+        // //函数
+        // function add(a,b){
+        //     sum = a+b;
+        //     console.log(sum);
+        //     return a+b;
+        // }
+        // //调用函数
+        // add(1,2);
+        // add("hello","world");
+        // add(true,false);
+        // add(1);
+
+        //对象的构造(4个方法)
+        let obj={};
+        obj.name="张三";
+        obj.age=120;
+        console.log(obj);
+
+        let obj2=new Object();
+        obj2.name="李四";
+        obj2.age=20;
+        console.log(obj2);
+
+        let obj3={
+            name:"王五",
+            age:30
+        }
+        console.log(obj3);
+
+        function Person(name,age){
+            this.name=name;
+            this.age=age;
+        }
+        const p1=new Person("赵六",40);
+        console.log(p1);    
+
+    </script>
+    //引用依赖,使用jquery库需要先引用对应的空
+    <script src="jquery-3.7.1.min.js"></script>
+</body>
+</html>

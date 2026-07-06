@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS运算符</title>
+</head>
+<body>
+    <script>
+        // 算术运算符
+        let a = 10;
+        let b = 5;
+        console.log(a + b);
+        console.log(a - b);
+        console.log(a * b);
+        console.log(a / b);
+        console.log(a % b);
+
+        //自增自减运算符
+        let x = 10;
+        let y = 5;
+        let z = x++ + ++y; // z = 10 + 6 = 16, x变为11，y变为6 
+        console.log(x++); // 输出10，x变为11
+        console.log(++y); // 输出6，y变为6
+        console.log(x--); // 输出12，x变为11
+        console.log(--y); // 输出5，y变为5
+        console.log(z); // 输出16
+
+        // 赋值运算符
+        let c = 10;
+        c += 5; // 等同于 c = c + 5
+        console.log(c);
+
+        // 比较运算符
+        console.log(a > b);
+        console.log(a < b);
+        console.log(a == b);
+        console.log(a != b);
+
+        // 逻辑运算符
+        let d = true;
+        let e = false;
+        console.log(d && e);
+        console.log(d || e);
+        console.log(!d);
+    </script>
+</body>
+</html>
