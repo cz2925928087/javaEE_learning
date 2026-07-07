@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <button type="button">点我消失</button>
+
+    <!-- <div id="text"><span>你好</span></div>    
+    <input type="text" value="hello"> 
+
+    <div id="text2"></div>
+    <input type="text3" value=""> -->
+
+    <!-- <p><a href="https://www.baidu.com" id="baidu">百度</a></p> -->
+
+    <!-- <div style="color: red; font-size: 36px;">我是⼀个⽂本</div>
+    <button type="button">点我换色</button> -->
+
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ol>
+    <img src="../JS/pd-image.jpg">
+    <script>
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $(this).hide();
+        //     });
+        // });
+
+
+        // //获取和设置元素内容text()和html()val()方法
+        // let text=$("#text").text();//获取元素文本内容
+        // console.log(text);
+        // let html=$("#text").html();//获取元素HTML内容
+        // console.log(html);
+        // let val=$("input").val();//获取元素value属性值
+        // console.log(val);
+
+        // let newText=$("#text2").text("你好，世界");//设置元素文本内容
+        // console.log(newText);
+        // let newHtml=$("#text2").html("<span>你好，世界</span>");//设置HTML标签   
+        // console.log(newHtml);
+        // let newVal=$("input[type='text3']").val("world");//设置元素value属性值
+        // console.log(newVal);    
+
+
+        //获取和设置元素属性attr()方法
+        // let attr=$("#baidu").attr("href");//获取元素属性值
+        // console.log(attr);
+        // let newAttr = $("#baidu").attr("href","https://www.baidu.com");//设置元素属性值
+        // console.log(newAttr);
+
+        // //获取/返回CSS属性
+        // let color = $("div").css("color");//获取元素CSS颜色属性
+        // let fontSize = $("div").css("font-size");//获取元素CSS字体大小属性  
+        // console.log(color);
+        // console.log(fontSize);
+        
+        // if(color=="rgb(255, 0, 0)") {      
+        //       $("button").click(function(){
+        //         $("div").css("color","blue");//设置元素CSS颜色属性   
+        //         $("div").css("font-size","24px");//设置元素CSS字体大小属性
+        //     });
+        //     // let newColor = $("div").css("color","blue");//设置元素CSS颜色属性   
+        //     // let newFontSize = $("div").css("font-size","24px");//设置元素CSS字体大小属性
+        // }else{
+        //     $("button").click(function(){
+        //         $("div").css("color","red");//设置元素CSS颜色属性   
+        //         $("div").css("font-size","36px");//设置元素CSS字体大小属性
+        //     });
+        //     // let newColor = $("div").css("color","red");//设置元素CSS颜色属性   
+        //     // let newFontSize = $("div").css("font-size","36px");//设置元素CSS字体大小属性
+        // }
+        // console.log(newColor);
+        // console.log(newFontSize);
+
+        //添加html元素
+            $(function () {
+                $("ol").append("<li>append</li>");
+                $("ol").prepend("<li>prepend</li>");
+                $("img").before("图⽚前插⼊");
+                $("img").after("图⽚后插⼊");
+            });
+
+    </script>
+</body>
+</html>
