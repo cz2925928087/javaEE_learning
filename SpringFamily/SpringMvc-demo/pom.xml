@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jinan</groupId>
-    <artifactId>spring-boot-demo</artifactId>
+    <artifactId>SpringMvc-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-demo</name>
-    <description>spring-boot-demo</description>
+    <name>SpringMvc-demo</name>
+    <description>SpringMvc-demo</description>
     <url/>
     <licenses>
         <license/>
