@@ -6,6 +6,15 @@ public class Person {
     private int gender;
     private String email;
 
+    public Person() {
+    }
+
+    public Person(String name, Integer age, int gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
