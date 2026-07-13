@@ -14,11 +14,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("request")
 public class RequestController {
-    private final ListableBeanFactory listableBeanFactory;
-
-    public RequestController(ListableBeanFactory listableBeanFactory) {
-        this.listableBeanFactory = listableBeanFactory;
-    }
 
     //传递单个参数
     @RequestMapping("/r1")

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+</head>
+<body>
+    <form action="/calc/sum" method="get">
+        <h1>计算机</h1>
+        num1:<input name="num1" type="text"><br/>
+        num2:<input name="num2" type="text"><br/>
+        <select id="op" onchange="changeAction()">
+            <option value="sum">加法</option>
+            <option value="sub">减法</option>
+            <option value="mul">乘法</option>
+            <option value="div">除法</option>
+        </select><br/>
+        <input type="submit" value="点击计算">
+    </form>
+    <script>
+        function changeAction() {
+            var op = document.getElementById('op').value;
+            document.forms[0].action = '/calc/' + op;
+        }
+    </script>
+</body>
+</html>
