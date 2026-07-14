@@ -2,11 +2,15 @@ package com.jinan.springlibarydemo.dao;
 //dao层一般存放数据相关的代码
 
 import com.jinan.springlibarydemo.model.BookInfo;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+@Repository
 public class BookDao {
     public List<BookInfo> mockDate() {
         List<BookInfo> list = new ArrayList<>();
