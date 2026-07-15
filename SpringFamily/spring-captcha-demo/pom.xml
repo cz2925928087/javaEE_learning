@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jinan</groupId>
-    <artifactId>spring-ioc-demo</artifactId>
+    <artifactId>spring-captcha-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-ioc-demo</name>
-    <description>spring-ioc-demo</description>
+    <name>spring-captcha-demo</name>
+    <description>spring-captcha-demo</description>
     <url/>
     <licenses>
         <license/>
@@ -34,12 +34,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.47</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

@@ -1,0 +1,25 @@
+server:
+  port: 9090
+  netty:
+    validate-headers: true
+
+#字符串双引号会识别出转义字符
+string:
+  value: hello \n yml
+  value2: 'hello \n yml'
+  value3: "hello \n yml"
+
+student:
+  id: 1
+  name: java
+  age: 18
+
+dbtype:
+  name:
+    - mysql
+    - sqlserver
+    - db2
+  map:
+    k1 : v1
+    k2 : v2
+    k3 : v3

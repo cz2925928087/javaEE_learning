@@ -52,8 +52,8 @@ public class SpringIocDemoApplication {
 //		UserController bean = context.getBean(UserController.class);
 //		bean.sayHello();
 
-		UserService bean = context.getBean(UserService.class);
-		bean.doService();
+//		UserService bean = context.getBean(UserService.class);
+//		bean.doService();
     }
 
 }
