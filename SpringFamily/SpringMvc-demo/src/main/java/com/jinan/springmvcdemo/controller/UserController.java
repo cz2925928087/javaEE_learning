@@ -1,4 +1,4 @@
-package com.jinan.springmvcdemo;
+package com.jinan.springmvcdemo.controller;
 //用户登录接口实现
 import jakarta.servlet.http.HttpSession;
 import org.springframework.util.StringUtils;

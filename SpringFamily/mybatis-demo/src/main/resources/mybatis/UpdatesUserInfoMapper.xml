@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinan.mybatisdemo.mapper.UpdatesUserInfoXmlMapper">
+    <insert id="insertUserByCondition">
+    INSERT INTO user_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+        <if test="username !=null">
+            username,
+        </if>
+        <if test="password !=null">
+            `password`,
+        </if>
+        <if test="age != null">
+            age,
+        </if>
+        <if test="gender != null">
+            gender,
+        </if>
+        <if test="phone != null">
+            phone,
+        </if>
+    </trim>
+    VALUES
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+        <if test="username !=null">
+            #{username},
+        </if>
+        <if test="password !=null">
+            #{password},
+        </if>
+        <if test="age != null">
+            #{age},
+        </if>
+        <if test="gender != null">
+            #{gender},
+        </if>
+        <if test="phone != null">
+            #{phone}
+        </if>
+    </trim>
+    </insert>
+
+    <select id="queryByCondition" resultType="com.jinan.mybatisdemo.entity.UserInfo">
+        select id, username, age, gender, phone, delete_flag, create_time, update_time
+        from user_info
+        <where>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+                <if test="deleteFlag != null">
+            and delete_flag = #{deleteFlag}
+            </if>
+            </where>
+        </select>
+</mapper>

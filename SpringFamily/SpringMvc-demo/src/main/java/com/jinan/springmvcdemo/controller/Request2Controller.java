@@ -1,6 +1,7 @@
-package com.jinan.springmvcdemo;
+package com.jinan.springmvcdemo.controller;
 
 
+import com.jinan.springmvcdemo.entity.Person;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

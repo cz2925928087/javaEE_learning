@@ -1,10 +1,9 @@
 package com.jinan.springmvcdemo;
 
+import com.jinan.springmvcdemo.entity.Person;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import tools.jackson.databind.ObjectMapper;
-
-import java.lang.runtime.ObjectMethods;
 
 @SpringBootTest
 class SpringMvcDemoApplicationTests {

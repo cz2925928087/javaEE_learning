@@ -1,15 +1,13 @@
-package com.jinan.springmvcdemo;
+package com.jinan.springmvcdemo.controller;
 
-import org.springframework.beans.factory.ListableBeanFactory;
+import com.jinan.springmvcdemo.entity.Person;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("request")

@@ -1,4 +1,4 @@
-package com.jinan.springmvcdemo;
+package com.jinan.springmvcdemo.entity;
 
 public class Person {
     private String name;

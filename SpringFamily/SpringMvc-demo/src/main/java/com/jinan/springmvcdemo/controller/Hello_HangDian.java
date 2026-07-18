@@ -1,4 +1,4 @@
-package com.jinan.springmvcdemo;
+package com.jinan.springmvcdemo.controller;
 
 import org.springframework.web.bind.annotation.*;
 

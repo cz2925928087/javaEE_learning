@@ -6,6 +6,7 @@ import lombok.Data;
 import java.math.BigDecimal;
 import java.util.Date;
 
+
 @Data
 public class BookInfo {
     //图书id
@@ -21,9 +22,9 @@ public class BookInfo {
     //出版社
     private String publish;
     //状态码:1表示可借阅,2表示不可借阅,0表示删除
-    private Integer staus;
+    private Integer status;
     //状态码含义
-    private String stausCN;
+    private String statusCN;
 
     //创建时间
     private Date createTime;

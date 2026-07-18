@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinan.mybatisdemo.mapper.UserInfoXmlMapper">
+    <insert id="insertUser">
+        insert INTO user_info(username,`password`,age,gender) VALUES (#{username},#{password},#{age},#{gender})
+    </insert>
+    <update id="updateUser">
+        update user_info set username=#{username} where id = #{id}
+    </update>
+
+    <delete id="deleteUser">
+        delete from user_info where id = #{id}
+    </delete>
+
+    <select id="selectAll" resultType="com.jinan.mybatisdemo.entity.UserInfo">
+        select username,`password`, age, gender, phone from user_info
+    </select>
+
+    <select id="selectById" resultType="com.jinan.mybatisdemo.entity.UserInfo">
+        select username,`password`, age, gender, phone
+        from user_info where id = #{id}
+    </select>
+
+    <select id="selectByAgeAndGender" resultType="com.jinan.mybatisdemo.entity.UserInfo">
+        select *from user_info where age = #{age} and gender = #{gender}
+    </select>
+</mapper>

@@ -1,0 +1,14 @@
+#设置日志级别:
+logging:
+  level:
+    root: info
+  file:
+    #指定日志文件路径和名称
+    name: logger/springboot.log
+    #指定日志保存路径:固定为spring.log
+    path: D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\springboot-log-demo\logger
+  #日志文件分割
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB   # 企业开发通常设 200M/500M
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i

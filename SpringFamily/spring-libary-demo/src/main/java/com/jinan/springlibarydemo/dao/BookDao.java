@@ -22,7 +22,7 @@ public class BookDao {
             bookInfo.setCount(new Random().nextInt(100));
             bookInfo.setPrice(new BigDecimal(new Random().nextInt(100)));
             bookInfo.setPublish("出版社"+i);
-            bookInfo.setStaus(i%5==0?2:1);
+            bookInfo.setStatus(i%5==0?2:1);
             list.add(bookInfo);
         }
         return list;
