@@ -1,0 +1,233 @@
+2026-07-19T16:18:48.265+08:00  INFO 29112 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 29112 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T16:18:48.267+08:00  INFO 29112 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T16:18:50.743+08:00  INFO 29112 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@309028af
+2026-07-19T16:18:51.248+08:00  INFO 29112 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.523 seconds (process running for 5.919)
+2026-07-19T16:18:54.254+08:00  INFO 29112 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T16:18:54.517+08:00  INFO 29112 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e020dd1
+2026-07-19T16:18:54.522+08:00  INFO 29112 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T16:18:54.593+08:00  INFO 29112 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : 结果: UserInfo(id=2, username=zhangsan, password=zhangsan, age=18, gender=1, phone=18612340002, deleteFlag=0, createTime=Sun Jul 19 16:05:43 CST 2026, updateTime=Sun Jul 19 16:05:43 CST 2026)
+2026-07-19T16:18:54.638+08:00  INFO 29112 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T16:18:54.682+08:00  INFO 29112 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T16:24:51.027+08:00  INFO 2448 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 2448 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T16:24:51.029+08:00  INFO 2448 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T16:24:52.396+08:00  INFO 2448 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@75798d03
+2026-07-19T16:24:52.709+08:00  INFO 2448 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.016 seconds (process running for 3.279)
+2026-07-19T16:24:54.232+08:00  INFO 2448 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T16:24:54.365+08:00  INFO 2448 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@608b906d
+2026-07-19T16:24:54.367+08:00  INFO 2448 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T16:24:54.525+08:00  INFO 2448 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T16:24:54.574+08:00  INFO 2448 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T16:26:19.552+08:00  INFO 28144 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 28144 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T16:26:19.555+08:00  INFO 28144 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T16:26:20.988+08:00  INFO 28144 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@7f572c37
+2026-07-19T16:26:21.266+08:00  INFO 28144 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.032 seconds (process running for 3.346)
+2026-07-19T16:26:22.766+08:00  INFO 28144 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T16:26:22.885+08:00  INFO 28144 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49d979c4
+2026-07-19T16:26:22.887+08:00  INFO 28144 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T16:26:22.908+08:00  INFO 28144 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : 影响行数: 1
+2026-07-19T16:26:22.932+08:00  INFO 28144 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T16:26:22.941+08:00  INFO 28144 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T17:05:34.207+08:00  INFO 15876 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 15876 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T17:05:34.209+08:00  INFO 15876 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T17:05:35.913+08:00  INFO 15876 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@598260a6
+2026-07-19T17:05:36.358+08:00  INFO 15876 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.459 seconds (process running for 3.67)
+2026-07-19T17:05:39.506+08:00  INFO 15876 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T17:05:39.696+08:00  INFO 15876 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@924f3f1
+2026-07-19T17:05:39.699+08:00  INFO 15876 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T17:05:39.769+08:00  INFO 15876 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T17:05:39.776+08:00  INFO 15876 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T17:07:04.959+08:00  INFO 30916 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 30916 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T17:07:04.962+08:00  INFO 30916 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T17:07:07.159+08:00  INFO 30916 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@3f93e4a8
+2026-07-19T17:07:07.543+08:00  INFO 30916 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.072 seconds (process running for 4.738)
+2026-07-19T17:07:10.405+08:00  INFO 30916 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T17:07:10.576+08:00  INFO 30916 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1c63af
+2026-07-19T17:07:10.579+08:00  INFO 30916 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T17:07:10.639+08:00  INFO 30916 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : 影响行数: 1
+2026-07-19T17:07:10.667+08:00  INFO 30916 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T17:07:10.673+08:00  INFO 30916 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T17:36:48.581+08:00  INFO 4364 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 4364 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T17:36:48.582+08:00  INFO 4364 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T17:36:50.114+08:00  INFO 4364 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@14ac77b9
+2026-07-19T17:36:50.446+08:00  INFO 4364 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.218 seconds (process running for 3.542)
+2026-07-19T17:36:53.419+08:00  INFO 4364 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T17:36:53.615+08:00  INFO 4364 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@545f0b6
+2026-07-19T17:36:53.618+08:00  INFO 4364 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T17:36:53.721+08:00  INFO 4364 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T17:36:53.768+08:00  INFO 4364 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T17:38:01.194+08:00  INFO 33328 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 33328 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T17:38:01.196+08:00  INFO 33328 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T17:38:04.023+08:00  INFO 33328 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@31da3d60
+2026-07-19T17:38:04.494+08:00  INFO 33328 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.825 seconds (process running for 5.686)
+2026-07-19T17:38:07.609+08:00  INFO 33328 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T17:38:07.857+08:00  INFO 33328 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56da8847
+2026-07-19T17:38:07.859+08:00  INFO 33328 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T17:38:07.960+08:00  INFO 33328 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T17:38:07.999+08:00  INFO 33328 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T17:39:02.469+08:00  INFO 34376 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 34376 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T17:39:02.471+08:00  INFO 34376 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T17:39:04.888+08:00  INFO 34376 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@6ac0b715
+2026-07-19T17:39:05.287+08:00  INFO 34376 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.403 seconds (process running for 5.309)
+2026-07-19T17:39:08.448+08:00  INFO 34376 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T17:39:08.636+08:00  INFO 34376 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27746c5e
+2026-07-19T17:39:08.638+08:00  INFO 34376 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T17:39:08.741+08:00  INFO 34376 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T17:39:08.751+08:00  INFO 34376 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T18:54:10.389+08:00  INFO 13484 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 13484 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T18:54:10.392+08:00  INFO 13484 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T18:54:12.100+08:00  INFO 13484 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@681e144
+2026-07-19T18:54:12.432+08:00  INFO 13484 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.406 seconds (process running for 3.781)
+2026-07-19T18:54:14.126+08:00  INFO 13484 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T18:54:14.249+08:00  INFO 13484 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6585df70
+2026-07-19T18:54:14.251+08:00  INFO 13484 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T18:54:14.310+08:00  INFO 13484 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T18:54:14.315+08:00  INFO 13484 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T19:01:17.893+08:00  INFO 8920 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 8920 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T19:01:17.895+08:00  INFO 8920 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T19:01:19.595+08:00  INFO 8920 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@7c6189d5
+2026-07-19T19:01:20.063+08:00  INFO 8920 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.523 seconds (process running for 3.877)
+2026-07-19T19:01:23.189+08:00  INFO 8920 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T19:01:23.397+08:00  INFO 8920 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56da8847
+2026-07-19T19:01:23.401+08:00  INFO 8920 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T19:01:23.476+08:00  INFO 8920 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T19:01:23.486+08:00  INFO 8920 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T19:01:50.259+08:00  INFO 30952 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 30952 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T19:01:50.261+08:00  INFO 30952 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T19:01:52.980+08:00  INFO 30952 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@5f18f9d2
+2026-07-19T19:01:53.476+08:00  INFO 30952 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.76 seconds (process running for 5.624)
+2026-07-19T19:01:56.615+08:00  INFO 30952 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T19:01:56.813+08:00  INFO 30952 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@227b9277
+2026-07-19T19:01:56.817+08:00  INFO 30952 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T19:01:56.893+08:00  INFO 30952 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T19:01:56.900+08:00  INFO 30952 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T21:55:09.786+08:00  INFO 19400 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 19400 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T21:55:09.790+08:00  INFO 19400 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T21:55:12.082+08:00  INFO 19400 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@35178483
+2026-07-19T21:55:12.430+08:00  INFO 19400 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.166 seconds (process running for 4.627)
+2026-07-19T21:55:15.597+08:00  INFO 19400 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T21:55:15.830+08:00  INFO 19400 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74a74070
+2026-07-19T21:55:15.834+08:00  INFO 19400 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T21:55:15.951+08:00  INFO 19400 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T21:55:15.997+08:00  INFO 19400 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T21:55:51.638+08:00  INFO 31996 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 31996 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T21:55:51.641+08:00  INFO 31996 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T21:55:53.864+08:00  INFO 31996 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@5f18f9d2
+2026-07-19T21:55:54.361+08:00  INFO 31996 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.246 seconds (process running for 4.657)
+2026-07-19T21:55:57.225+08:00  INFO 31996 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T21:55:57.424+08:00  INFO 31996 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a6facb0
+2026-07-19T21:55:57.427+08:00  INFO 31996 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T21:55:57.534+08:00  INFO 31996 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T21:55:57.542+08:00  INFO 31996 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T22:07:39.430+08:00  INFO 3636 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 3636 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T22:07:39.432+08:00  INFO 3636 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T22:07:40.778+08:00  INFO 3636 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@7aead3af
+2026-07-19T22:07:41.065+08:00  INFO 3636 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 1.946 seconds (process running for 3.176)
+2026-07-19T22:07:42.612+08:00  INFO 3636 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T22:07:42.741+08:00  INFO 3636 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a69014e
+2026-07-19T22:07:42.743+08:00  INFO 3636 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T22:07:42.777+08:00  INFO 3636 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : 影响行数 2
+2026-07-19T22:07:42.800+08:00  INFO 3636 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T22:07:42.805+08:00  INFO 3636 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T22:35:56.132+08:00  INFO 30256 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 30256 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T22:35:56.135+08:00  INFO 30256 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T22:35:57.721+08:00  INFO 30256 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@2216effc
+2026-07-19T22:35:58.057+08:00  INFO 30256 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.282 seconds (process running for 3.758)
+2026-07-19T22:35:59.745+08:00  INFO 30256 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T22:35:59.913+08:00  INFO 30256 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f85904a
+2026-07-19T22:35:59.916+08:00  INFO 30256 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T22:36:00.000+08:00  INFO 30256 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T22:36:00.005+08:00  INFO 30256 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T22:46:23.835+08:00  INFO 34904 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 34904 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T22:46:23.837+08:00  INFO 34904 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T22:46:25.187+08:00  INFO 34904 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@38018b62
+2026-07-19T22:46:25.526+08:00  INFO 34904 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.012 seconds (process running for 3.414)
+2026-07-19T22:46:28.135+08:00  INFO 34904 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T22:46:28.306+08:00  INFO 34904 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c1bebca
+2026-07-19T22:46:28.309+08:00  INFO 34904 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T22:46:28.395+08:00  INFO 34904 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T22:46:28.402+08:00  INFO 34904 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T22:47:22.824+08:00  INFO 35196 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 35196 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T22:47:22.829+08:00  INFO 35196 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T22:47:24.915+08:00  INFO 35196 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@4ad3d266
+2026-07-19T22:47:25.346+08:00  INFO 35196 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 3.019 seconds (process running for 4.78)
+2026-07-19T22:47:28.285+08:00  INFO 35196 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T22:47:28.470+08:00  INFO 35196 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ab4d2ba
+2026-07-19T22:47:28.473+08:00  INFO 35196 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T22:47:28.570+08:00  INFO 35196 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T22:47:28.578+08:00  INFO 35196 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T22:48:28.794+08:00  INFO 9964 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 9964 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T22:48:28.796+08:00  INFO 9964 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T22:48:30.668+08:00  INFO 9964 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@55ec556
+2026-07-19T22:48:31.079+08:00  INFO 9964 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.652 seconds (process running for 3.971)
+2026-07-19T22:48:33.778+08:00  INFO 9964 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T22:48:33.947+08:00  INFO 9964 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78743dd8
+2026-07-19T22:48:33.950+08:00  INFO 9964 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T22:48:34.036+08:00  INFO 9964 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T22:48:34.042+08:00  INFO 9964 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T22:50:35.399+08:00  INFO 22548 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 22548 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T22:50:35.401+08:00  INFO 22548 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T22:50:36.867+08:00  INFO 22548 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@4b869331
+2026-07-19T22:50:37.173+08:00  INFO 22548 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.102 seconds (process running for 3.381)
+2026-07-19T22:50:38.751+08:00  INFO 22548 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T22:50:38.886+08:00  INFO 22548 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5ac0
+2026-07-19T22:50:38.890+08:00  INFO 22548 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T22:50:38.973+08:00  INFO 22548 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T22:50:38.978+08:00  INFO 22548 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T23:06:09.843+08:00  INFO 20232 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 20232 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:06:09.845+08:00  INFO 20232 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:06:11.392+08:00  INFO 20232 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@563a89b5
+2026-07-19T23:06:11.500+08:00  INFO 20232 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 1.963 seconds (process running for 3.226)
+2026-07-19T23:06:15.576+08:00  INFO 20232 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T23:06:15.793+08:00  INFO 20232 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@215a0264
+2026-07-19T23:06:15.796+08:00  INFO 20232 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T23:06:15.910+08:00  INFO 20232 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T23:06:15.951+08:00  INFO 20232 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T23:18:19.765+08:00  INFO 33344 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 33344 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:18:19.772+08:00  INFO 33344 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:18:21.479+08:00  INFO 33344 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@4248e66b
+2026-07-19T23:18:21.595+08:00  INFO 33344 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.156 seconds (process running for 3.468)
+2026-07-19T23:19:57.082+08:00  INFO 34240 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 34240 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:19:57.084+08:00  INFO 34240 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:19:58.675+08:00  INFO 34240 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@3e6534e7
+2026-07-19T23:19:58.779+08:00  INFO 34240 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.018 seconds (process running for 3.279)
+2026-07-19T23:20:00.276+08:00  INFO 34240 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T23:20:00.394+08:00  INFO 34240 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3835d3fd
+2026-07-19T23:20:00.396+08:00  INFO 34240 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T23:20:00.540+08:00  INFO 34240 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T23:20:00.556+08:00  INFO 34240 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T23:21:35.770+08:00  INFO 30944 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 30944 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:21:35.773+08:00  INFO 30944 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:21:37.867+08:00  INFO 34708 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 34708 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:21:37.870+08:00  INFO 34708 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:21:38.037+08:00  INFO 30944 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@506dcf55
+2026-07-19T23:21:38.233+08:00  INFO 30944 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.917 seconds (process running for 4.215)
+2026-07-19T23:21:39.649+08:00  INFO 34708 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@3f4cd155
+2026-07-19T23:21:39.797+08:00  INFO 34708 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.489 seconds (process running for 4.248)
+2026-07-19T23:21:40.910+08:00  INFO 30944 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T23:21:41.065+08:00  INFO 30944 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dba3fdc
+2026-07-19T23:21:41.067+08:00  INFO 30944 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T23:21:41.219+08:00  INFO 30944 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T23:21:41.224+08:00  INFO 30944 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T23:21:42.611+08:00  INFO 34708 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T23:21:42.823+08:00  INFO 34708 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa0feb2
+2026-07-19T23:21:42.827+08:00  INFO 34708 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T23:21:43.062+08:00  INFO 34708 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T23:21:43.075+08:00  INFO 34708 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T23:22:47.040+08:00  INFO 15028 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 15028 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:22:47.043+08:00  INFO 15028 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:22:49.214+08:00  INFO 15028 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@7e94d093
+2026-07-19T23:22:49.389+08:00  INFO 15028 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.657 seconds (process running for 3.898)
+2026-07-19T23:22:52.215+08:00  INFO 15028 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T23:22:52.411+08:00  INFO 15028 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65ff4b8c
+2026-07-19T23:22:52.414+08:00  INFO 15028 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T23:22:52.607+08:00  INFO 15028 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T23:22:52.622+08:00  INFO 15028 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-19T23:24:47.899+08:00  INFO 15972 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Starting UserInfoMapperTest using Java 17.0.9 with PID 15972 (started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\mybatis-plus-demo)
+2026-07-19T23:24:47.902+08:00  INFO 15972 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2026-07-19T23:24:49.579+08:00  INFO 15972 --- [mybatis-plus-demo] [main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@4248e66b
+2026-07-19T23:24:49.701+08:00  INFO 15972 --- [mybatis-plus-demo] [main] c.j.m.mapper.UserInfoMapperTest          : Started UserInfoMapperTest in 2.158 seconds (process running for 3.447)
+2026-07-19T23:24:51.257+08:00  INFO 15972 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-19T23:24:51.401+08:00  INFO 15972 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b895e76
+2026-07-19T23:24:51.404+08:00  INFO 15972 --- [mybatis-plus-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-19T23:24:51.464+08:00  INFO 15972 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-19T23:24:51.469+08:00  INFO 15972 --- [mybatis-plus-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

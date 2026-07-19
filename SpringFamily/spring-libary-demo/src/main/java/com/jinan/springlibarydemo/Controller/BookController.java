@@ -67,26 +67,32 @@ public class BookController {
     }
 
 
-    @RequestMapping("?queryBookById")
-    public BookInfo queryBookById(Integer bookId) {
+    @RequestMapping("/queryBookById")
+    public Result<BookInfo> queryBookById(Integer bookId) {
         log.info("查询图书详情,bookId: {}",bookId);
         //参数校验
         if(bookId == null || bookId<0) {
-            return null;
+            return Result.paramError("参数不正确");
         }
         BookInfo bookInfo = bookService.queryBookById(bookId);
-        return bookInfo;
+        if(bookInfo == null) {
+            return Result.fail("图书不存在");
+        }
+        return Result.success(bookInfo);
     }
 
     @RequestMapping("/updateBook")
-    public String updateBook(BookInfo bookInfo) {
+    public Result<String> updateBook(BookInfo bookInfo) {
         log.info("修改图书信息, bookInfo:{}", bookInfo);
         //参数校验
         if(bookInfo.getId() == null || bookInfo.getId()<0) {
-            return "参数不正确";
+            return Result.paramError("参数不正确");
         }
         Integer result = bookService.updateBook(bookInfo);
-        return result==1?"": "数据更新失败";
+        if(result == 1) {
+            return Result.success("");
+        }
+        return Result.fail("数据更新失败");
     }
 
     @RequestMapping("/deleteBook")

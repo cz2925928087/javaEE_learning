@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mybatis-plus-demo
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mybatis_test?characterEncoding=utf8&useSSL=false
+    username: root
+    password: Cz.200406146737
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  file:
+    name: logs/springboot.log
+
+mybatis-plus:
+  configuration: # 配置打印 MyBatis⽇志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapper-locations: "classpath:mapper/**.xml" # Mapper.xml

@@ -7,6 +7,7 @@ spring:
     password: Cz.200406146737
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
+  mapper-locations: classpath:mapper/**Mapper.xml
   configuration: # 配置打印 MyBatis⽇志
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true #配置驼峰⾃动转换

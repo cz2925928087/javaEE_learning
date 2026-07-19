@@ -65,7 +65,7 @@
                 type: "get",
                 url: "/book/queryBookById" + location.search,
                 success: function (result) {
-                    if (result == null || result.code != 200 && result.data == null) {
+                    if (result == null) {
                         return;
                     }
                     let bookInfo = result.data;
@@ -94,7 +94,7 @@
                 url: "/book/updateBook",
                 data: $("#updateBook").serialize(),
                 success: function (result) {
-                    if (result != null && result.code == 200 && result.data == "") {
+                    if (result != null) {
                         //更新成功
                         alert("更新成功");
                         location.href = "book_list.html";
