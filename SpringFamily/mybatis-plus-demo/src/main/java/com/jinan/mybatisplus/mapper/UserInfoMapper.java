@@ -26,6 +26,7 @@ public interface UserInfoMapper extends BaseMapper<UserInfo> {
     List<UserInfo> queryUserInfoList2(@Param(Constants.WRAPPER) QueryWrapper wrappers);
 
 
+
     List<UserInfo> queryUserInfoList3(@Param(Constants.WRAPPER) QueryWrapper<UserInfo> wrapper);
 
     @Update("update user_info set age = age + #{addAge}  ${ew.customSqlSegment}")

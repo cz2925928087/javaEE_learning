@@ -41,10 +41,10 @@
                         passWord:$("#password").val()
                     },
                     success: function(result) {
-                        if(result) {
+                        if(result.code == 200) {
                             location.href = "book_list.html";
                         }else {
-                            alert("账号或密码不正确!");
+                            alert(result.errMsg || "账号或密码不正确!");
                         }
                     }
                 });

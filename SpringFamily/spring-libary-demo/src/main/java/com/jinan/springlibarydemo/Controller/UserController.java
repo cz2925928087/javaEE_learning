@@ -1,6 +1,7 @@
 package com.jinan.springlibarydemo.Controller;
 
 
+import com.jinan.springlibarydemo.model.Result;
 import com.jinan.springlibarydemo.service.UserService;
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
@@ -18,28 +19,28 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/login")
-    public Boolean login(String userName, String passWord, HttpSession session) {
-        log.info("用户登录,接收到的参数 name {}",userName);
+    public Result<Boolean> login(String userName, String passWord, HttpSession session) {
+        log.info("用户登录,接收到的参数 name {}", userName);
 
-        //如果账号密码为空,返回false
-        if(!StringUtils.hasLength(userName) || !StringUtils.hasLength(passWord)) {
-            return false;
+        if (!StringUtils.hasLength(userName) || !StringUtils.hasLength(passWord)) {
+            return Result.paramError("账号或密码不能为空");
         }
-        //验证账号密码是否正确,
-        //TODO 暂时用admin代替
-//        if("admin".equals(userName) && "admin".equals(passWord)) {
-//            session.setAttribute("userName",userName);
-//            return true;
-//        }
 
-        Boolean result = userService.checkPassword(userName,passWord);
-        return result;
+        Boolean result = userService.checkPassword(userName, passWord);
+        if (result) {
+            session.setAttribute("userName", userName);
+            log.info("用户 {} 登录成功, session已存入", userName);
+            return Result.success(true);
+        }
+        return Result.paramError("账号或密码不正确");
     }
 
-    //获取用户登录状态
     @RequestMapping("getLoginUser")
-    public String getLoginUser(HttpSession session) {
-        String userName = (String)session.getAttribute("userName");
-        return userName == null?"无登录":userName;
+    public Result<String> getLoginUser(HttpSession session) {
+        String userName = (String) session.getAttribute("userName");
+        if (userName == null) {
+            return Result.unlogin();
+        }
+        return Result.success(userName);
     }
 }
