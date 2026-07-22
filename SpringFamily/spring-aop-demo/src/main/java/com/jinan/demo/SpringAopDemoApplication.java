@@ -1,14 +1,13 @@
-package com.jinan.springlibarydemo;
-
+package com.jinan.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringLibaryDemoApplication {
+public class SpringAopDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringLibaryDemoApplication.class, args);
+        SpringApplication.run(SpringAopDemoApplication.class, args);
     }
 
 }

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jinan</groupId>
-    <artifactId>mybatis-plus-demo</artifactId>
+    <artifactId>spring-trans</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatis-plus-demo</name>
-    <description>mybatis-plus-demo</description>
+    <name>spring-trans</name>
+    <description>spring-trans</description>
     <url/>
     <licenses>
         <license/>
@@ -46,21 +46,14 @@
         </dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter-test</artifactId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>4.0.1</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-spring-boot4-starter</artifactId>
-            <version>3.5.17</version>
-        </dependency>
-
     </dependencies>
 
     <build>

@@ -1,54 +1,26 @@
-2026-07-20T16:47:52.698+08:00  INFO 15024 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Starting SpringLibaryDemoApplication using Java 17.0.9 with PID 15024 (D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo\target\classes started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo)
-2026-07-20T16:47:52.709+08:00  INFO 15024 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-07-20T16:47:54.037+08:00  INFO 15024 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-20T16:47:54.057+08:00  INFO 15024 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-20T16:47:54.057+08:00  INFO 15024 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-20T16:47:54.138+08:00  INFO 15024 --- [spring-libary-demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1359 ms
-2026-07-20T16:47:54.918+08:00  INFO 15024 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-07-20T16:47:54.922+08:00  INFO 15024 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Started SpringLibaryDemoApplication in 2.901 seconds (process running for 3.876)
-2026-07-20T16:50:42.875+08:00  INFO 15024 --- [spring-libary-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-07-20T16:50:42.976+08:00  INFO 15024 --- [spring-libary-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-07-20T16:50:49.755+08:00  INFO 20756 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Starting SpringLibaryDemoApplication using Java 17.0.9 with PID 20756 (D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo\target\classes started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo)
-2026-07-20T16:50:49.763+08:00  INFO 20756 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-07-20T22:00:41.984+08:00  INFO 36188 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Starting SpringLibaryDemoApplication using Java 17.0.9 with PID 36188 (D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo\target\classes started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo)
-2026-07-20T22:00:41.989+08:00  INFO 36188 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-07-20T22:00:43.254+08:00  INFO 36188 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-20T22:00:43.269+08:00  INFO 36188 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-20T22:00:43.269+08:00  INFO 36188 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-20T22:00:43.337+08:00  INFO 36188 --- [spring-libary-demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1281 ms
-2026-07-20T22:00:44.031+08:00  INFO 36188 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-07-20T22:00:44.036+08:00  INFO 36188 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Started SpringLibaryDemoApplication in 2.744 seconds (process running for 3.676)
-2026-07-20T22:00:53.662+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-07-20T22:00:53.663+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-07-20T22:00:53.666+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-07-20T22:00:53.719+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-1] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /error
-2026-07-20T22:00:53.773+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-2] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /favicon.ico
-2026-07-20T22:01:02.116+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-4] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /favicon.ico
-2026-07-20T22:01:25.714+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-6] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /book/getListByPage
-2026-07-20T22:01:25.740+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-7] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /favicon.ico
-2026-07-20T22:01:28.634+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-9] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /book/getListByPage
-2026-07-20T22:01:28.646+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-10] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /favicon.ico
-2026-07-20T22:01:29.845+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-2] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /favicon.ico
-2026-07-20T22:01:34.088+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-3] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /book/addBook
-2026-07-20T22:01:37.212+08:00  WARN 36188 --- [spring-libary-demo] [http-nio-8080-exec-4] c.j.s.interceptor.LoginInterceptor       : 用户未登录, 拦截请求: /favicon.ico
-2026-07-20T22:01:54.349+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-6] c.j.s.Controller.UserController          : 用户登录,接收到的参数 name admin
-2026-07-20T22:01:54.366+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-20T22:01:54.501+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-6] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34ac4ad7
-2026-07-20T22:01:54.502+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-20T22:01:54.564+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-6] c.j.s.Controller.UserController          : 用户 admin 登录成功, session已存入
-2026-07-20T22:01:54.652+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-7] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /book/getListByPage
-2026-07-20T22:01:54.657+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-7] c.j.s.Controller.BookController          : 获取翻页信息, pageRequest: PageRequest(currentPage=1, pageSize=10, offset=0)
-2026-07-20T22:01:54.677+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-8] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /favicon.ico
-2026-07-20T22:01:54.682+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-8] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /error
-2026-07-20T22:01:57.295+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-10] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /book/getListByPage
-2026-07-20T22:01:57.299+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-10] c.j.s.Controller.BookController          : 获取翻页信息, pageRequest: PageRequest(currentPage=2, pageSize=10, offset=10)
-2026-07-20T22:02:02.232+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-1] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /book/updateBook
-2026-07-20T22:02:02.234+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-1] c.j.s.Controller.BookController          : 修改图书信息, bookInfo:BookInfo(id=24, bookName=null, author=null, count=null, price=null, publish=null, status=0, statusCN=null, createTime=null, updateTime=null)
-2026-07-20T22:02:03.294+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-2] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /book/getListByPage
-2026-07-20T22:02:03.295+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-2] c.j.s.Controller.BookController          : 获取翻页信息, pageRequest: PageRequest(currentPage=1, pageSize=10, offset=0)
-2026-07-20T22:02:05.253+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-3] c.j.s.interceptor.LoginInterceptor       : 已登录用户: admin, 放行请求: /book/getListByPage
-2026-07-20T22:02:05.255+08:00  INFO 36188 --- [spring-libary-demo] [http-nio-8080-exec-3] c.j.s.Controller.BookController          : 获取翻页信息, pageRequest: PageRequest(currentPage=2, pageSize=10, offset=10)
-2026-07-20T22:02:28.193+08:00  INFO 36188 --- [spring-libary-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-07-20T22:02:28.316+08:00  INFO 36188 --- [spring-libary-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-07-20T22:02:28.318+08:00  INFO 36188 --- [spring-libary-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-20T22:02:28.324+08:00  INFO 36188 --- [spring-libary-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-21T00:17:14.242+08:00  INFO 39824 --- [spring-libary-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-21T00:17:14.453+08:00  INFO 39824 --- [spring-libary-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-21T00:17:14.456+08:00  INFO 39824 --- [spring-libary-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-21T00:17:14.459+08:00  INFO 39824 --- [spring-libary-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-21T10:32:17.927+08:00  INFO 33732 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Starting SpringLibaryDemoApplication using Java 17.0.9 with PID 33732 (D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo\target\classes started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo)
+2026-07-21T10:32:17.930+08:00  INFO 33732 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-21T10:32:18.657+08:00  INFO 33732 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-21T10:32:18.668+08:00  INFO 33732 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-21T10:32:18.669+08:00  INFO 33732 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-21T10:32:18.716+08:00  INFO 33732 --- [spring-libary-demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 744 ms
+2026-07-21T10:32:18.762+08:00  INFO 33732 --- [spring-libary-demo] [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static tools.jackson.databind.ObjectMapper com.jinan.springlibarydemo.advice.ResponseAdvice.objectMapper
+2026-07-21T10:32:19.173+08:00  INFO 33732 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-21T10:32:19.177+08:00  INFO 33732 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Started SpringLibaryDemoApplication in 1.682 seconds (process running for 2.276)
+2026-07-21T10:32:20.603+08:00  INFO 33732 --- [spring-libary-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-21T10:32:20.703+08:00  INFO 33732 --- [spring-libary-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-21T10:58:48.559+08:00  INFO 33388 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Starting SpringLibaryDemoApplication using Java 17.0.9 with PID 33388 (D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo\target\classes started by 29259 in D:\LearnJAVA\Java-EE_Learning\javaEE_learning\SpringFamily\spring-libary-demo)
+2026-07-21T10:58:48.562+08:00  INFO 33388 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-21T10:58:49.253+08:00  INFO 33388 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-21T10:58:49.262+08:00  INFO 33388 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-21T10:58:49.262+08:00  INFO 33388 --- [spring-libary-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-07-21T10:58:49.305+08:00  INFO 33388 --- [spring-libary-demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 710 ms
+2026-07-21T10:58:49.352+08:00  INFO 33388 --- [spring-libary-demo] [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: public static tools.jackson.databind.ObjectMapper com.jinan.springlibarydemo.advice.ResponseAdvice.objectMapper
+2026-07-21T10:58:49.735+08:00  INFO 33388 --- [spring-libary-demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-21T10:58:49.739+08:00  INFO 33388 --- [spring-libary-demo] [main] c.j.s.SpringLibaryDemoApplication        : Started SpringLibaryDemoApplication in 1.556 seconds (process running for 2.067)
+2026-07-21T11:00:02.095+08:00  INFO 33388 --- [spring-libary-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-21T11:00:02.194+08:00  INFO 33388 --- [spring-libary-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
